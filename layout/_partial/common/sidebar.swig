@@ -4,11 +4,15 @@
             <img src="{{ get_setting('qrcode', 'avatar') }}" alt="{{ get_setting('title') }}" title="{{ get_setting('title') }}">
         </div>
     {% endif %} -->
-
+    <script>
+        function formSubmit(){
+	        document.getElementById("page-search-from").submit();
+        }
+    </script>
     <form id="page-search-from" class="page__search-from" action="/search/">
         <label class="search-form__item">
             <input class="input" type="text" name="search" placeholder="Search...">
-            <i class="iconfont icon-search"></i>
+            <i class="iconfont icon-search" onclick="formSubmit()" value="Submit form"></i>
         </label>
     </form>
 
