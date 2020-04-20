@@ -5,6 +5,7 @@
 <meta name="designer" content="minfive" />
 <meta name="keywords" content="{{ get_setting('keywords') }}"/>
 <meta name="description" content="{{ get_setting('description') }}" />
+<meta name="theme-color" content="#15AAD6" />
 
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
